@@ -1,0 +1,353 @@
+{
+  "mod_elements": [
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lerm/models/item/ruby.json",
+          "src/main/java/net/mcreator/lerm/item/RubyItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RubyOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lerm/world/features/ores/RubyOreFeature.java",
+          "src/main/java/net/mcreator/lerm/block/RubyOreBlock.java",
+          "src/main/resources/assets/lerm/blockstates/ruby_ore.json",
+          "src/main/resources/data/lerm/worldgen/placed_feature/ruby_ore.json",
+          "src/main/resources/data/lerm/forge/biome_modifier/ruby_ore_biome_modifier.json",
+          "src/main/resources/data/lerm/worldgen/configured_feature/ruby_ore.json",
+          "src/main/resources/assets/lerm/models/item/ruby_ore.json",
+          "src/main/resources/assets/lerm/models/block/ruby_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lerm/blockstates/ruby_block.json",
+          "src/main/java/net/mcreator/lerm/block/RubyBlockBlock.java",
+          "src/main/resources/assets/lerm/models/block/ruby_block.json",
+          "src/main/resources/assets/lerm/models/item/ruby_block.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lerm/recipes/ruby_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lerm/recipes/ruby_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyOreSmelting",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lerm/recipes/ruby_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyeArmor",
+      "type": "armor",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lerm/models/item/ruby_armor_chestplate.json",
+          "src/main/resources/assets/lerm/models/item/ruby_armor_helmet.json",
+          "src/main/resources/assets/lerm/models/item/ruby_armor_leggings.json",
+          "src/main/resources/assets/lerm/models/item/ruby_armor_boots.json",
+          "src/main/java/net/mcreator/lerm/item/RubyeArmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RubyeArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubye_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lerm/recipes/rubye_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyeArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubye_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lerm/recipes/rubye_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyeArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubye_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lerm/recipes/rubye_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyeArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubye_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lerm/recipes/rubye_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubbyPickaxe",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lerm/models/item/ruby_pickaxe.json",
+          "src/main/java/net/mcreator/lerm/item/RubbyPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RubbyAxe",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lerm/models/item/ruby_axe.json",
+          "src/main/java/net/mcreator/lerm/item/RubbyAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RubbySword",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lerm/item/RubbySwordItem.java",
+          "src/main/resources/assets/lerm/models/item/ruby_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "RubbyShovel",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lerm/models/item/ruby_shovel.json",
+          "src/main/java/net/mcreator/lerm/item/RubbyShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RubbyHoe",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lerm/models/item/ruby_hoe.json",
+          "src/main/java/net/mcreator/lerm/item/RubbyHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RubbyPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubby_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lerm/recipes/rubby_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubbyAxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubby_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lerm/recipes/rubby_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubbySwordRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubby_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lerm/recipes/rubby_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubbyShovelRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubby_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lerm/recipes/rubby_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubbyHoeRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubby_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lerm/recipes/rubby_hoe_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "fr_ca": {
+      "item.lerm.ruby": "Rubis",
+      "item.lerm.ruby_armor_leggings": "Ruby Leggings",
+      "item.lerm.ruby_sword": "Épée en Rubis",
+      "item.lerm.ruby_shovel": "Pelle en Rubis",
+      "block.lerm.ruby_ore": "Minerais de Rubis",
+      "block.lerm.ruby_block": "Bloc de Rubis",
+      "item.lerm.ruby_hoe": "Houe en Rubis",
+      "item.lerm.ruby_armor_helmet": "Ruby Helmet",
+      "item.lerm.ruby_armor_boots": "Ruby Boots",
+      "item.lerm.ruby_pickaxe": "Pioche en Rubis",
+      "item.lerm.ruby_armor_chestplate": "Ruby Chestplate",
+      "item.lerm.ruby_axe": "Hâche en Rubis"
+    },
+    "en_us": {
+      "item.lerm.ruby": "Ruby",
+      "item.lerm.ruby_sword": "Ruby Sword",
+      "item.lerm.ruby_shovel": "Ruby Shovel",
+      "item.lerm.ruby_hoe": "Ruby Hoe",
+      "item.lerm.ruby_armor_helmet": "Ruby Helmet",
+      "item.lerm.ruby_pickaxe": "Ruby Pickaxe",
+      "item.lerm.ruby_armor_chestplate": "Ruby Chestplate",
+      "item.lerm.ruby_armor_leggings": "Ruby Leggings",
+      "block.lerm.ruby_ore": "Ruby Ore",
+      "block.lerm.ruby_block": "Block of Ruby",
+      "item.lerm.ruby_armor_boots": "Ruby Boots",
+      "item.lerm.ruby_axe": "Ruby Axe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "lerm",
+    "modName": "Low Effort Ruby Mod",
+    "version": "1.0.0",
+    "description": "Low Effort Ruby Mod",
+    "author": "ytggobs",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.lerm",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

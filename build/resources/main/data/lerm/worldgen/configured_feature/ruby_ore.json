@@ -1,0 +1,67 @@
+{
+  "type": "lerm:ruby_ore",
+  "config": {
+    "size": 5,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:stone"
+          }
+        },
+        "state": {
+          "Name": "lerm:ruby_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:granite"
+          }
+        },
+        "state": {
+          "Name": "lerm:ruby_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:diorite"
+          }
+        },
+        "state": {
+          "Name": "lerm:ruby_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:andesite"
+          }
+        },
+        "state": {
+          "Name": "lerm:ruby_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:deepslate",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        },
+        "state": {
+          "Name": "lerm:ruby_ore"
+        }
+      }
+    ]
+  }
+}
